@@ -1,0 +1,61 @@
+body{
+margin:0;
+padding: 0;
+background-color: #d0f9d0;
+}
+
+.logoimg{
+  height:50%;
+  width:auto;
+}
+.conteaner{
+display:grid;
+grid-template-rows:10%  10fr  2fr;
+height: 200vh;
+}
+.conteaner *{
+margin-left: 3px;
+
+}
+
+.hat{
+ display: grid;
+ grid-template-columns:1fr repeat(4,3fr);
+text-align: center;
+background-color: #d0f9d0;
+border-radius: 1px 1px 60px 60px/40px 40px 40px 40px;
+
+}
+
+.hat{
+font-family: arial
+
+}
+.otzivi{
+font-size: 20px
+
+
+}
+
+.info{
+font-size:20px
+
+}
+
+.games{
+font-size:20px
+display:grid;
+grid-template-columns:100px,100px,100px;
+text-align: center;
+
+
+}
+
+
+
+
+
+.red_cube{
+height:15%;
+
+}
